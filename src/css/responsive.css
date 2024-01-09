@@ -1,0 +1,12 @@
+@media(max-width:375px){
+    body{
+        background: url('/src/design/mobile-design.jpg') no-repeat;
+        background-size: cover;
+    }
+
+   main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 100px;
+   }
+}

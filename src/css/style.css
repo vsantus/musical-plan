@@ -1,0 +1,129 @@
+.background{
+    height:220px;
+    width: 440px;
+    background: url('/src/images/illustration-hero.svg') no-repeat;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.container{
+    background: var(--background-container); 
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 420px;
+    border: 1px solid none;
+    box-shadow: 5px 35px 100px hsl(225, 79%, 85%);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.information{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.information h1{
+    font-size: 24px;
+    font-weight: 900 ;
+    color: var(--titles);
+
+}
+
+.information p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--descriptions);
+    margin-top: 15px;
+    width: 300px;
+}
+
+.plan{
+    background: var(--background-plan);
+    border: 1px solid none;
+    border-radius: 10px;
+    display: flex;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 30px;
+    
+}
+
+.plan .year{
+    padding-left: 20px;
+}
+
+.plan .year h2{
+    font-size: 16px;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.plan .year p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--descriptions)
+}
+
+.plan a{
+    margin: 12px 0px 0px 80px;
+    align-items: center;
+    color: var(--button);
+    font-weight: 700;
+}
+
+.plan a:hover{
+    text-decoration: none;
+    color: var(--active);
+}
+
+
+
+.buttons {
+    text-align: center;
+    
+}
+
+.buttons .payment-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--button);
+    width: 330px;
+    height: 50px;
+    border: 1px solid none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 60px rgb(158, 150, 247);
+    margin-bottom: 25px;
+
+}
+
+.buttons .payment-btn:hover{
+    background: var(--active);
+    cursor: pointer;
+
+}
+
+
+.buttons .payment-btn a{
+    color: var(--background-container);
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.buttons .cancel-btn{
+    color: var(--descriptions);
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.buttons .cancel-btn:hover{
+    color: var(--titles);
+}
+
